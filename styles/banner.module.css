@@ -1,0 +1,63 @@
+.banner{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+.bannerContent{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+}
+
+.bannerInfo{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    color: white;
+    width: 50%;
+    height: 100%;
+    align-items: start;
+    padding-top: 80px;
+
+}
+.bannerInfo button{
+    margin-top: 20px;
+}
+.bannerInfo h1{
+    font-family: "Mardoto Black";
+    margin-top: 100px;
+}
+.bannerInfo p{
+    font-family: "Mardoto Light";
+    margin-top: 20px;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    object-fit: cover;
+}
+.cover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #000000a2;
+    z-index: 2;
+}
+
+
+
+@media only screen and (max-width: 1000px){
+    .bannerInfo{
+        width: 90%;
+        margin: auto;
+    }
+}

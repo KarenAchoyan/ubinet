@@ -1,0 +1,47 @@
+.about{
+
+}
+
+.aboutContainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.aboutColumn{
+    width: 50%;
+    padding: 20px;
+}
+
+.aboutImage{
+    width: 100%;
+}
+
+.aboutColumn h1{
+    font-family: "Mardoto Black";
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.aboutColumn h1 span{
+    color: cornflowerblue;
+}
+
+.aboutColumn p{
+    font-family: "Mardoto Light";
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+@media only screen and (max-width: 1000px){
+    .aboutContainer{
+        flex-direction: column;
+    }
+    .aboutColumn{
+        width: 90%;
+        margin: auto;
+    }
+}

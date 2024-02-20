@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: MardotoBlack;
+    src: url(/fonts/Mardoto-Black.ttf);
+}
+@font-face {
+    font-family: MardotoBlackItalic;
+    src: url(/fonts/Mardoto-BlackItalic.ttf);
+}
+@font-face {
+    font-family: MardotoLight;
+    src: url(/fonts/Mardoto-Light.ttf);
+}
+@font-face {
+    font-family: Mardoto;
+    src: url(/fonts/Mardoto-Light.ttf);
+}
+@font-face {
+    font-family: MardotoItalic;
+    src: url(/fonts/Mardoto-Italic.ttf);
+}
+
+
