@@ -8,7 +8,7 @@ const App = ({children}) => {
             <header className={styles.header}>
                 <div className={styles.container}>
                     <div className={styles.logo}>
-                        <img src="https://purepng.com/public/uploads/large/purepng.com-disney-logologobrand-logoiconslogos-251519939495wtv86.png" alt=""/>
+                        <img src="/logo.png" alt="logo"/>
                     </div>
                     <div className={styles.menu}>
                         <ul>
