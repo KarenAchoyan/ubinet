@@ -12,11 +12,7 @@ const Banner = () => {
                 alt=""/>
             <div className={styles.bannerContent}>
                 <div className={styles.bannerInfo}>
-                    <h1>Ինտերնետ պրովայդեր</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquam amet architecto atque
-                        commodi consequuntur distinctio, doloribus ex iste laborum, maxime molestiae nemo nostrum quasi
-                        quo recusandae sapiente totam velit!</p>
-                    <Button type={'primary'}>Զանգել</Button>
+                    <img src="/forBanner.png" alt=""/>
                 </div>
             </div>
         </div>
