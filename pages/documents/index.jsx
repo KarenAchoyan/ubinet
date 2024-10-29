@@ -2,6 +2,7 @@ import Head from "next/head";
 import {Inter} from "next/font/google";
 import App from "../../components/layouts/app";
 import React from "react";
+import Link from "next/link";
 
 const inter = Inter({subsets: ["latin"]});
 
@@ -25,9 +26,9 @@ export default function Index() {
           <ul>
             {files.map((file, index) => (
               <li style={{fontSize:'22px', marginTop:'10px'}} key={index}>
-                <a style={{color:'black'}} href={`/api/download/${file.path}`} download>
+                <Link style={{color:'black'}} href={`/api/download/${file.path}`} download>
                   Download {file.name}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
