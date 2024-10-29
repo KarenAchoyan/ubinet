@@ -3,6 +3,7 @@ import Info from "./info";
 import styles from "../../styles/contactus.module.css";
 
 import {Button, Form, Input, message} from 'antd';
+import Link from "next/link";
 
 const {TextArea} = Input;
 const Contactus = () => {
@@ -57,7 +58,7 @@ const Contactus = () => {
                             }>
                                 <img src="/mail.png" alt=""/>
                             </Info>
-                            <a style={{textDecoration:'none'}} href="/documents">
+                            <Link style={{textDecoration:'none'}} href="/documents">
                                 <Info info={
                                     {
                                         title: "Փաստաթղթեր",
@@ -68,7 +69,7 @@ const Contactus = () => {
                                 }>
                                     <img  src="/doc.png" alt=""/>
                                 </Info>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
