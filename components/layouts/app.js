@@ -12,10 +12,8 @@ const App = ({children}) => {
                     </div>
                     <div className={styles.menu}>
                         <ul>
-                            <li>Home</li>
-                            <li>Services</li>
-                            <li>About</li>
-                            <li>Contact</li>
+                            <li><a href="/" style={{color:'white', textDecoration:'none'}}>Գլխավոր էջ</a></li>
+                            <li><a href="/documents" style={{color:'white', textDecoration:'none'}}>Փաստաթղթեր</a></li>
                         </ul>
                     </div>
                 </div>

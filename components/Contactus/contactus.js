@@ -57,6 +57,18 @@ const Contactus = () => {
                             }>
                                 <img src="/mail.png" alt=""/>
                             </Info>
+                            <a style={{textDecoration:'none'}} href="/documents">
+                                <Info info={
+                                    {
+                                        title: "Փաստաթղթեր",
+                                        info: [
+                                        ],
+                                        icon: ""
+                                    }
+                                }>
+                                    <img  src="/doc.png" alt=""/>
+                                </Info>
+                            </a>
                         </div>
                     </div>
                 </div>
